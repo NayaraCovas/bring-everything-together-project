@@ -1,0 +1,55 @@
+:root {
+  --button-color: white;
+  --button-background-color: #f082b3;
+  --border-radius: 10%;
+  --border-color: #f082b3;
+}
+header {
+  text-align: center;
+  margin: 10px;
+}
+
+#nails-photo {
+  text-align: center;
+}
+
+.btn {
+  background-color: var(--button-background-color);
+  border-color: var(--border-color);
+}
+
+#btn {
+  background-color: var(--button-background-color);
+  border-color: var(--border-color);
+  border-radius: 15px;
+}
+
+#input {
+  border-radius: 15px;
+  border-width: 0.5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.btn:hover {
+  background-color: black;
+  transition: 0.7s;
+  border-color: black;
+}
+
+.d-grid{
+   padding-top: 30px;
+}
+
+
+#answer{
+    
+    visibility: hidden;
+    
+}
+
+#err {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
